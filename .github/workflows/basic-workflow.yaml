@@ -1,0 +1,19 @@
+name: Basic Workflow
+
+on: push
+
+jobs:
+    echo-hello:
+        runs-on: ubuntu-latest
+
+         steps:
+             - name: Echo hello
+              run: echo "Heelo, World!"
+
+    echo-goodbye:
+        runs-on: ubuntu-latest
+
+         steps:
+             - name: Echo goodbye
+              run: echo "goodbye, World!"
+     
